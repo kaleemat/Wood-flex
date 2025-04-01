@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font-family: "Nunito Sans", sans-serif;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+.about1 {
+  background-color: white;
+  /* border: 2px solid green; */
+}
+
+.navList .nav-item .nav-link:hover {
+  color: black !important;
+}
+
+.about1 h2 {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.aboutImages {
+  overflow: hidden;
+}
+
+.a {
+  border-radius: 8px;
+}
+.b {
+  border-radius: 8px;
+}
+.c {
+  border-radius: 8px;
+}
+
+.about2 h3 {
+  font-weight: 600;
+}
+
+.about2 p {
+  line-height: 30px;
+  word-spacing: 2px;
+}

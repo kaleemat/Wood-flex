@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font-family: "Nunito Sans", sans-serif;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* border: 2px solid red; */
+}
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+/* NAVBAR */
+.navbar {
+  background-color: rgb(250, 250, 245);
+  height: 80px;
+}
+
+.navbar-brand {
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  letter-spacing: 7px;
+  font-weight: 600;
+}
+
+/* nav links */
+.navbar-nav .nav-item .nav-link {
+  color: #fca311 !important;
+  letter-spacing: 3px;
+  margin: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navList .nav-item .nav-link:hover {
+  color: black !important;
+}
+
+.navbar-toggler {
+  color: #fca311;
+  background-color: #fca311;
+}
+
+.navbar-toggler-icon {
+  color: #fca311;
+  background-color: #fca311;
+}
+
+/* SECTION 1 */
+.section1 {
+  background-image: url(./assets/bg-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  align-items: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.page1 h1 {
+  font-size: 3.5rem;
+  text-shadow: 3px 3px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  letter-spacing: 5px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.page1 p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+}
+
+.page1 .btn {
+  background-color: #fca311;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid #fca311;
+}
+
+.page1 .btn:hover {
+  background-color: transparent;
+}
+
+/* SECTION 2 */
+.section2 {
+  background-color: white;
+}
+
+.section2 h1 {
+  margin-top: 70px;
+  font-size: 23px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.popularPicks button {
+  padding: 4px;
+  width: 100%;
+  border: 1px solid #fca311;
+  margin-top: 10px;
+}
+
+.popularPicks button:hover {
+  background-color: #fca311;
+}
+
+/* SECTION 3 */
+.section3 {
+  background-color: white;
+}
+.section3 h1 {
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 5px;
+}
+
+.section3 p {
+  font-size: 13px;
+}
+
+.section3 button {
+  padding: 6px 50px;
+  border: 2px solid #fca311;
+  margin-top: 10px;
+}
+
+.section3 button:hover {
+  background-color: #fca311;
+}
+
+.section3 button {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.section3 button a {
+  font-size: 10px;
+}
+
+/* SECTION 4 */
+.section4 {
+  background-color: #fdf3e4;
+  margin-top: 100px;
+}
+
+.section4 h6 {
+  padding-top: 70px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.salesicon i {
+  font-size: 50px;
+  color: orange;
+}
+
+.salesicon p {
+  font-weight: 600;
+  text-align: center;
+}
+
+.icons {
+  justify-content: center;
+}
+
+/* SECTION 5 */
+
+.section5 h5 {
+  padding-top: 70px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.armChairs p {
+  font-size: 12px;
+  word-spacing: 3px;
+}
+
+.armChair2 {
+  flex-direction: column;
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+.armChair2 p {
+  text-align: center;
+}
+
+.ptag {
+  flex-direction: column;
+}
+
+.royal {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.primrose {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.vida {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.anya {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.price {
+  padding: 0px 15px;
+}
+
+.price button {
+  padding: 4px 20px;
+  background-color: transparent;
+  border: 2px solid #fca311;
+}
+
+.price button:hover {
+  background-color: #fca311;
+  a {
+    color: white;
+  }
+}
+
+.price button a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+.price h4 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  color: #fca311;
+}
+.priceHasirama {
+  padding: 0px 15px;
+}
+
+.priceHasirama button {
+  padding: 4px 20px;
+  background-color: transparent;
+  border: 2px solid #fca311;
+}
+
+.priceHasirama button:hover {
+  background-color: #fca311;
+  a {
+    color: white;
+  }
+}
+.priceHasirama h4 {
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  color: #fca311;
+}
+
+.priceHasirama button a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.boxxx1 {
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+.boxxx2 {
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+.boxxx3 {
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+.boxxx4 {
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+/* SECTION 6 */
+
+.inspiration h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section6 h3 {
+  font-size: 18px;
+  word-spacing: 4px;
+}
+
+.inspirationDetails {
+  padding-left: 15px;
+  border: 1px solid whitesmoke;
+  border-top: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.inspirationDetails a {
+  text-decoration: none;
+  color: #fca311;
+}
+.inspirationDetails a:hover {
+  text-decoration: none;
+  color: #fca311;
+}
+
+.inspiration p {
+  font-size: 15px;
+  word-spacing: 3px;
+}
+
+.livingPlant {
+  margin-top: 20px;
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+.kiddies {
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+.lighting {
+  box-shadow: 0px 0px 0.5px 0px;
+}
+.bedroom {
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+/* SECTION 6 */
+.footer {
+  background-color: rgb(42, 39, 39);
+  padding-bottom: 80px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(197, 195, 195);
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  margin-left: 8px;
+  color: white;
+}
+
+.site {
+  color: white;
+  font-size: 14px;
+}
+
+.contactIcons {
+  margin-left: 40px;
+}
+
+.fa-brands {
+  font-size: 27px;
+  color: white;
+}
+
+/* ABOUT PAGE */
+
+@media screen and (max-width: 768px) {
+  .inspirationDetails {
+    border: 1px solid whitesmoke;
+    border-top: none;
+  }
+
+  .section1 {
+    background-image: url(./assets/actualsmall.jpg);
+    /* margin-top: -20px; */
+  }
+
+  .page1 h1 {
+    color: black;
+    font-size: 2rem;
+
+    text-shadow: 1px 1px 0 #bcbcbc, 1px 1px 0 #9c9c9c;
+  }
+
+  .page1 p {
+    color: black;
+    font-size: 1rem;
+    text-shadow: 2px 2px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+  }
+
+  /* .page1 h1 {
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    letter-spacing: 5px;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .page1 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+  }
+
+  .page1 .btn {
+    background-color: #fca311;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #fca311;
+  } */
+}
